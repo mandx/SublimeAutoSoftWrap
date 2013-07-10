@@ -1,0 +1,37 @@
+[
+    {
+        // No need to define these
+        // "mnemonic": "n",
+        // "caption": "Preferences",
+        "id": "preferences",
+        "children": [
+            {
+                // No need to define these
+                // "mnemonic": "P",
+                // "caption": "Package Settings",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "AutoSoftWrap",
+                        "children": [
+                            {
+                                "caption": "Settings – Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/AutoSoftWrap/AutoSoftWrap.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/AutoSoftWrap.sublime-settings"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
