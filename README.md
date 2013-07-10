@@ -13,7 +13,7 @@ Really useful when reading documentation maintained inside code repositories, bu
 Installation
 ------------
 
-ApplySyntax can be installed in a variety of ways:
+AutoSoftWrap can be installed in a variety of ways:
 
 * Using [Package Control](http://wbond.net/sublime_packages/package_control)
 
